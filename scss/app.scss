@@ -1,0 +1,21 @@
+@use 'app.child';
+
+$textColor:white;
+$bodyColor:blue;
+$hoverBodyColor:green;
+
+@mixin bodyColorChange($delay) {
+    transition: background-color $delay;
+}
+
+div {
+    @include bodyColorChange(2s);    
+    color : $textColor;
+    background-color: $bodyColor;
+    padding: 50px;
+    &:hover{
+        background-color: $hoverBodyColor
+    }
+}
+
+

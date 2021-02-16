@@ -1,0 +1,11 @@
+%commonSettings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body{
+    @extend %commonSettings;    
+    height: 100vh;
+    margin: 0;
+};

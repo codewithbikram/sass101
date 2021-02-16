@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+div {
+  transition: background-color 2s;
+  color: white;
+  background-color: blue;
+  padding: 50px;
+}
+div:hover {
+  background-color: green;
+}
+
+/*# sourceMappingURL=app.css.map */
